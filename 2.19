@@ -1,0 +1,34 @@
+//2.19
+#include <iostream>
+int main()
+{
+  int a,b,c=0;
+  std::cout<<"Input three diferents integers: ";
+  std::cin>>a>>b>>c;
+  std::cout<<"Sum is "<<a+b+c<<std::endl;
+  std::cout<<"Average is "<<(a+b+c)/3<<std::endl;
+  std::cout<<"Product is "<<a*b*c<<std::endl;
+  
+  
+int largest = a;
+if (b > largest) {
+  largest = b;
+}
+ if (c > largest) {
+  largest = c;
+ }
+    
+  
+int smallest = a;
+if (b < smallest) {
+   smallest = b;
+ }
+if (c < smallest) {
+   smallest = c;
+}
+    
+ std::cout << "Largest is " << largest << std::endl;
+ std::cout << "Smallest is " << smallest << std::endl;
+    
+    return 0;
+}
