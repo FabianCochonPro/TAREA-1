@@ -1,0 +1,23 @@
+//2.25 
+
+#include <iostream>
+int main()
+{
+  int a,b,c=0;
+  std::cout<<"Input 3 integers: ";
+  std::cin>>a>>b>>c;
+  if(a%b==0 && c%b==0){
+    std::cout<<"a and c are factors of b";
+  }
+  else if(a%b==0){
+    std::cout<<"a  are factor of b";
+
+  }
+  else if(c%b==0){
+    std::cout<<"c  are factor of b";
+
+  }
+  else{
+    std::cout<<"none its a factor of b";
+  }
+}
