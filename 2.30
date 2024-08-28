@@ -1,0 +1,24 @@
+//2.30
+
+#include <iostream>
+int main()
+{
+  float peso,altura,BMI=0;
+  std::cout<<"Introduce tu peso y tu altura ";
+  std::cin>>peso;
+  std::cin>>altura;
+  BMI=peso/(altura*altura);
+  if (BMI<=18.5){
+    std::cout<<"Underweight";
+  }
+  else if (BMI>=18.5 && BMI<=24.9){
+    std::cout<<"Normal";
+  }
+  else if (BMI>=25 && BMI<=29.9){
+    std::cout<<"Overweight";
+  }
+  else if (BMI>=30){
+    std::cout<<"Obese";
+  }
+
+}
