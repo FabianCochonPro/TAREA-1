@@ -1,0 +1,14 @@
+//2.16
+#include <iostream>
+int main()
+{
+  int a,b=0;
+  std::cout<<"Introduce 2 integers :\n";
+  std::cin>>a;
+  std::cin>>b;
+  std::cout<<a+b<<std::endl;
+  std::cout<<a/b<<std::endl;
+  std::cout<<a*b<<std::endl;
+  std::cout<<a-b<<std::endl;
+  return 0;
+}
