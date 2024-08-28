@@ -1,0 +1,15 @@
+//2.29
+
+#include <iostream>
+int main()
+{
+ int a = 0, b = 1, c = 2, d = 3, e = 4;
+ 
+ std::cout<<"Face length     Surface Area      Volume   "<<std::endl;
+ std::cout<<"of cube(cm)     of cube(cm^2)     of cube(cm^3) "<<std::endl;
+ std::cout<<a<<"               "<<6*(a*a)<<"                 "<<a*a*a<<"  "<<std::endl;
+ std::cout<<b<<"               "<<6*(b*b)<<"                 "<<b*b*b<<"  "<<std::endl;
+ std::cout<<c<<"               "<<6*(c*c)<<"                 "<<c*c*c<<"  "<<std::endl;
+ std::cout<<d<<"               "<<6*(d*d)<<"                 "<<d*d*d<<"  "<<std::endl;
+ std::cout<<e<<"               "<<6*(e*e)<<"                 "<<e*e*e<<"  "<<std::endl;
+}
