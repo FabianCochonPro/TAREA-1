@@ -1,0 +1,22 @@
+//2.31
+
+#include <iostream>
+int main()
+{
+  float a,b,c,d,e,f,g=0;
+  std::cout<<"Input the total millas per day: ";
+  std::cin>> a;
+  std::cout<<"Input the cost per galon: ";
+  std::cin>> b;
+  std::cout<<"Input average millas per galon: ";
+  std::cin>> c;
+  std::cout<<"Input the parking fees per day: ";
+  std::cin>> d;
+  std::cout<<"Input the tolls  per day: ";
+  std::cin>> e;
+  f=(a/b)*c*d+e;
+  g=(a/b)*c+d+e;
+  std::cout<<"Cost no pool:"<<f<<std::endl;
+  std::cout<<"Cost pool:"<<g<<std::endl;
+  std::cout<<"save money:"<<f-g<<std::endl;
+}
