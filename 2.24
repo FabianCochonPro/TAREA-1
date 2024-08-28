@@ -1,0 +1,22 @@
+//2.24
+
+#include <iostream>
+int main()
+{
+  int a,b=0;
+  std::cout<<"INPUT 2 INTEGERS: ";
+  std::cin>>a>>b;
+  if (a%2!=0 && a%2!=0){
+    std::cout<<a<<" and "<<b<<" Are not multiple of 2\n";
+  }
+
+  else if(a%2!=0 ){
+    std::cout<<a<<" its not multiple of 2\n";
+  }
+  else if (b%2!=0){
+    std::cout<<b<<" its not multiple of 2\n";
+  }
+  else {
+    std::cout<<a<<" and "<<b<<" Are  multiple of 2\n";
+  }
+}
