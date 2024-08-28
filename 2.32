@@ -1,0 +1,16 @@
+//2.32
+
+#include <iostream>
+int main()
+{
+  int a,MHR=0;
+  std::cout<<"input your age";
+  std::cin>>a;
+  
+  MHR=220-(0.7*a);
+  std::cout<<"2007 formula: "<<MHR<<std::endl; 
+  MHR=220-(0.64*a);
+  std::cout<<"2012 formula: "<<MHR<<std::endl; 
+
+  
+}
