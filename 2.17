@@ -1,0 +1,12 @@
+//2.17
+
+#include <iostream>
+int main()
+{
+  std::cout<<"V W X Y Z"<<std::endl;
+  std::cout<<"VX"<<"YZ"<<std::endl;
+  std::cout<<"V"<<"W"<<"X"<<"Y"<<std::endl;
+  std::cout<<"VX"<<std::endl;
+  std::cout<<"YZ"<<std::endl;
+  return 0;
+}
