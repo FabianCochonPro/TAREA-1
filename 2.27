@@ -8,13 +8,3 @@ int main()
   std::cin>>e;
   std::cout<<static_cast<int>(e);
 }
-*/
-/*
-#include <iostream>
-int main()
-{
-  int a,b,c,d=0;
-  std::cout<<"Input 4 integers: ";
-  std::cin>>a>>b>>c>>d;
-  std::cout<< d <<" "<< c<<" "<< b<<" "<< a<<" " ;
-}
